@@ -1,8 +1,18 @@
-baseURL = "http://fuzzylogiq.github.io/"
+baseURL = "https://fuzzylogiq.github.io/"
 languageCode = "en-gb"
-title = "fuzzylogiq"
-theme = "minimal"
+title = "fuzzylogiq's blog"
+theme = "hugo-journal"
+
+[author]
+  name = "ben goodstein"
+  homepage = "https://fuzzylogiq.github.io/"
 
 [params]
-  Subtitle = "because fuzzylogic was taken - a macOS and occasionally linux admin's blog"
-  AuthorName = "Ben Goodstein"
+  description = "a macOS and linux system administrator's blog"
+  githubUsername = "fuzzylogiq"
+  twitterUsername = "fuzzylogiq"
+  tagline = "the latest blitherings"
+[params.work]
+  jobTitle = "senior sysadmin"
+  company = "university of oxford"
+  companyUrl = "https://ox.ac.uk"
