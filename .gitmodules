@@ -1,0 +1,7 @@
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/calintat/minimal
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/fuzzylogiq/fuzzylogiq.github.io

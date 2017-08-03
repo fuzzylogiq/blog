@@ -1,0 +1,8 @@
+baseURL = "http://fuzzylogiq.github.io/"
+languageCode = "en-gb"
+title = "fuzzylogiq"
+theme = "minimal"
+
+[params]
+  Subtitle = "because fuzzylogic was taken - a macOS and occasionally linux admin's blog"
+  AuthorName = "Ben Goodstein"
