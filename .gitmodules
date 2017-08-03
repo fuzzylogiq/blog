@@ -5,6 +5,8 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/fuzzylogiq/fuzzylogiq.github.io
+  branch = master
 [submodule "themes/hugo-journal"]
 	path = themes/hugo-journal
 	url = https://github.com/damiencaselli/hugo-journal
+  branch = master
