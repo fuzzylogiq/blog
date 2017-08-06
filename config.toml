@@ -4,15 +4,15 @@ title = "fuzzylogiq's blog"
 theme = "hugo-journal"
 
 [author]
-  name = "ben goodstein"
+  name = "Ben Goodstein"
   homepage = "https://fuzzylogiq.github.io/"
 
 [params]
-  description = "a macOS and linux system administrator's blog"
+  description = "a macOS and Linux systems administrator's blog"
   githubUsername = "fuzzylogiq"
   twitterUsername = "fuzzylogiq"
   tagline = "the latest blitherings"
 [params.work]
-  jobTitle = "senior sysadmin"
-  company = "university of oxford"
+  jobTitle = "Senior Sysadmin"
+  company = "University of Oxford"
   companyUrl = "https://ox.ac.uk"
