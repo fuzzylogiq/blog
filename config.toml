@@ -2,7 +2,7 @@ baseURL = "https://fuzzylogiq.github.io/"
 languageCode = "en-gb"
 title = "fuzzylogiq's blog"
 theme = "hugo-journal"
-disqusShortname = "bengoodstein"
+DisqusShortname = "fuzzylogiq.github.io"
 [author]
   name = "Ben Goodstein"
   homepage = "https://fuzzylogiq.github.io/"
