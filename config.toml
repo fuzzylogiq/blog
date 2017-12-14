@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "fuzzylogiq's blog"
 theme = "hugo-journal"
 disqusShortname = "fuzzylogiq-github-io"
-
+googleAnalytics = "UA-111236653-1"
 [author]
   name = "Ben Goodstein"
   homepage = "https://fuzzylogiq.github.io/"
