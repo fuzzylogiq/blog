@@ -25,7 +25,7 @@ What follows is a beginner's guide to using munki-rebrand to bring your own name
 * You'll need to be somewhat familiar with the CLI (Terminal)
 * You'll need to grab the latest version of the munki-rebrand code. You can either:
  * Download a zip/tgz of the [latest release from Github](https://github.com/ox-it/munki-rebrand/releases/latest) and uncompress it somewhere suitable, or
- * Use command line `git` or some other GUI method (shiver) to clone the repo e.g. `git clone https://github.com/ox-it/munki-rebrand.git`
+ * Use command line `git` or some other GUI method (_shiver_) to clone the repo e.g. `git clone https://github.com/ox-it/munki-rebrand.git`
 * If you want to change Managed Software Center's icon, you'll need an icns file or a 1024x1024 transparent png with your graphics. Creating the icon is somewhat out of scope of this document, but there are some useful tips [!!FIXME!!](here)
 
 #### Method
@@ -55,6 +55,7 @@ What follows is a beginner's guide to using munki-rebrand to bring your own name
 * `munki-rebrand.py` downloads the latest munkitools, rebrands it, adds a postinstall, and renames the output pkg to `Awesome_Software_Hub-X.XXXX.mpkg` where `X.XXXX` is the same as the munkitools mpkg version
 
 ##### Signing the output pkg
+* Signing the output pkg is optional, but maybe your company requires it or people will be manually installing it and need to pass Gatekeeper
 * `munki_rebrand.py` can call `productsign` for you to sign your output pkg if you have an Apple Developer Installer Identity (certificate and private key) somewhere in your keychain. Please note that even if you built a custom mpkg and signed it, the process to rebrand the mpkg will have rendered that signature invalid so you would need to sign again
 * Let's say your signing identity is called "Developer ID Installer: Awesome Software (X9TT35F4L8)" do:
 `sudo ./munki_rebrand.py -a "Awesome Software Hub" -i Awesome_Software_Hub.icns -p awesome_postinstall_script.sh -o Awesome_Software_Hub --sign-package "Developer ID Installer: Awesome Software (X9TT35F4L8)"`
